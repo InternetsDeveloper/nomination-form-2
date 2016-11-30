@@ -1,3 +1,5 @@
+/* Global Styles */
+
 * {
     outline: none !important;
 }
@@ -13,6 +15,9 @@ body {
     display: table;
     font-family: "Raleway", sans-serif;
 }
+
+/* Form Style */
+
 .wrapper {
     display: table-cell;
     vertical-align: middle;
@@ -151,6 +156,9 @@ form.animate-form .form-group.has-success .form-control-feedback {
 h3 {
     padding-bottom: 5px;
 }
+
+/* Attach Button Style */
+
 .btn-file {
     position: relative;
     overflow: hidden;

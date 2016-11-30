@@ -30,13 +30,19 @@
 
     <div class="wrapper">
         <div class="form-header">
+
+            <!-- Logo -->
             <div class="logo">
                 <img id="header-logo" src="img/logo3.png">
             </div>
+
+            <!-- Form Title -->
             <h1>EDI CUSTOMER NOMINATION FORM</h1>
         </div>
         <form class="form animate-form" id="form" onsubmit="return false;">
-            <h3 id="gen-acct">GENERAL ACCOUNT INFORMATION</h3>
+
+            <!-- General Account Section -->
+            <h3>GENERAL ACCOUNT INFORMATION</h3>
             <div class="form-group has-feedback">
                 <label class="control-label sr-only" for="customer-account">TD Customer Account # </label>
                 <div class="input-group-addon">
@@ -125,9 +131,13 @@
                 <input class="form-control" id="customer-type" name="customer-type" placeholder="Customer Type" type="text">
                 <span class="glyphicon glyphicon-ok form-control-feedback"></span>
             </div>
+            <!-- /end General Account Section -->
             <br/>
 
+            <!-- Customer Contact Section -->
             <h3>CUSTOMER CONTACT INFORMATION</h3>
+
+            <!-- Business Section -->
             <h6>BUSINESS</h6>
             <div class="form-group has-feedback">
                 <label class="control-label sr-only" for="business-contact-name">Business Contact Name </label>
@@ -161,6 +171,9 @@
                 <input class="form-control" id="business-email" name="business-email" placeholder="Business E-Mail Address" type="text">
                 <span class="glyphicon glyphicon-ok form-control-feedback"></span>
             </div>
+            <!-- /end Business Section -->
+
+            <!-- Technical Section -->
             <h6>TECHNICAL</h6>
             <div class="form-group has-feedback">
                 <label class="control-label sr-only" for="technical-contact-name">Technical Contact Name </label>
@@ -195,6 +208,9 @@
                 <span class="glyphicon glyphicon-ok form-control-feedback"></span>
             </div>
             <br/>
+            <!-- /end Business Section -->
+
+            <!-- Sales Info Section -->
             <h3>SALES INFORMATION</h3>
             <div class="form-group has-feedback">
                 <label class="control-label sr-only" for="td-sales">TD Sales (Prior FY) </label>
@@ -221,6 +237,9 @@
                 <span class="glyphicon glyphicon-ok form-control-feedback"></span>
             </div>
             <br/>
+            <!-- /end Sales Info Section -->
+
+            <!-- Detailed Info Section -->
             <h3>DETAILED INFORMATION</h3>
             <div class="form-group has-feedback">
                 <label class="control-label sr-only" for="current-order">Do You Currently Have Order Processing in Place? </label>
@@ -239,6 +258,9 @@
                 <span class="glyphicon glyphicon-ok form-control-feedback"></span>
             </div>
             <br/>
+            <!-- /end Detailed Info Section -->
+
+            <!-- Special Req Section -->
             <h3>SPECIAL REQUIREMENTS</h3>
             <div class="form-group has-feedback">
                 <label class="control-label sr-only" for="special-req">What Type of Transaction Are You Looking For? </label>
@@ -249,16 +271,24 @@
                 <span class="glyphicon glyphicon-ok form-control-feedback"></span>
             </div>
             <br/>
+            <!-- /end Special Req Section -->
+
+            <!-- Notes & Attach Section -->
             <h3>ADD NOTES AND ATTACHMENTS</h3>
             <label class="btn btn-default btn-file">
                 Browse
                 <input type="file" style="display: none;">
             </label>
+            <!-- /end Notes & Attach Section -->
+
+            <!-- Submit Button -->
             <div class="form-group submit">
                 <input class="btn btn-lg" type="submit" value="SUBMIT">
             </div>
         </form>
+        <!-- /end Form -->
     </div>
+    <!-- /end .wrapper -->
 
     <!-- Script Links -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.1/modernizr.min.js"></script>
