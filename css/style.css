@@ -148,6 +148,9 @@ form.animate-form .form-group.has-success .form-control-feedback {
     -o-transform: scale(1);
     transform: scale(1);
 }
+h3 {
+    padding-bottom: 5px;
+}
 .btn-file {
     position: relative;
     overflow: hidden;
