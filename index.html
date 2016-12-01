@@ -117,19 +117,21 @@
             </div>
             <div class="form-group has-feedback">
                 <label class="control-label sr-only" for="country-code">Country Code </label>
-                <div class="input-group-addon">
-                    <div class="glyphicon glyphicon-globe"></div>
-                </div>
-                <input class="form-control" id="country-code" name="country-code" placeholder="Country Code" type="text">
-                <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+                <select name="dropdown" id="country-code" class="form-control">
+                    <option value="default">Country Code</option>
+                    <option value="1">US</option>
+                    <option value="2">CAN</option>
+                </select>
             </div>
             <div class="form-group has-feedback">
                 <label class="control-label sr-only" for="customer-type">Customer Type </label>
-                <div class="input-group-addon">
-                    <div class="glyphicon glyphicon-list"></div>
-                </div>
-                <input class="form-control" id="customer-type" name="customer-type" placeholder="Customer Type" type="text">
-                <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+                <select name="dropdown" id="customer-type" class="form-control">
+                    <option value="default">Customer Type</option>
+                    <option value="1">Commercial</option>
+                    <option value="2">Retail</option>
+                    <option value="3">ISCS</option>
+                    <option value="4">Canada</option>
+                </select>
             </div>
             <!-- /end General Account Section -->
             <br/>
@@ -230,11 +232,11 @@
             </div>
             <div class="form-group has-feedback">
                 <label class="control-label sr-only" for="existing-customer">Existing Customer Y/N </label>
-                <div class="input-group-addon">
-                    <div class="glyphicon glyphicon-user"></div>
-                </div>
-                <input class="form-control" id="existing-customer" name="existing-customer" placeholder="Existing Customer Y/N" type="text">
-                <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+                <select name="dropdown" id="exist-customer" class="form-control">
+                    <option value="default">Existing Customer?</option>
+                    <option value="1">YES</option>
+                    <option value="2">NO</option>
+                </select>
             </div>
             <br/>
             <!-- /end Sales Info Section -->
@@ -242,12 +244,12 @@
             <!-- Detailed Info Section -->
             <h3>DETAILED INFORMATION</h3>
             <div class="form-group has-feedback">
-                <label class="control-label sr-only" for="current-order">Do You Currently Have Order Processing in Place? </label>
-                <div class="input-group-addon">
-                    <div class="glyphicon glyphicon-paperclip"></div>
-                </div>
-                <input class="form-control" id="current-order" name="current-order" placeholder="Do You Currently Have Order Processing in Place?" type="text">
-                <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+                <label class="control-label sr-only" for="order-processing">Do you currently have order processing in place? </label>
+                <select name="dropdown" id="order-processing" class="form-control">
+                    <option value="default">Do you currently have order processing in place?</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
             </div>
             <div class="form-group has-feedback">
                 <label class="control-label sr-only" for="ready-date">Projected Readiness Date </label>
@@ -263,11 +265,11 @@
             <!-- Special Req Section -->
             <h3>SPECIAL REQUIREMENTS</h3>
             <div class="form-group has-feedback">
-                <label class="control-label sr-only" for="special-req">What Type of Transaction Are You Looking For? </label>
+                <label class="control-label sr-only" for="special-req">What Type of Transaction Are You Interested In? </label>
                 <div class="input-group-addon">
                     <div class="glyphicon glyphicon-list-alt"></div>
                 </div>
-                <input class="form-control" id="special-req" name="special-req" placeholder="What Type of Transaction Are You Looking For?" type="text">
+                <input class="form-control" id="special-req" name="special-req" rows="20" placeholder="What Type of Transaction Are You Interested In?" type="text">
                 <span class="glyphicon glyphicon-ok form-control-feedback"></span>
             </div>
             <br/>

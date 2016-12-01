@@ -178,3 +178,6 @@ h3 {
     cursor: inherit;
     display: block;
 }
+form .form-group .form-control .option {
+    text-indent: 46px;
+}
