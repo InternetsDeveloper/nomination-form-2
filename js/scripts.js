@@ -51,3 +51,10 @@ $(document).ready(function () {
         console.log(label);
     });
 });
+
+/* Initialize DateTimePicker */
+$(function () {
+    $('#datetimepicker2').datetimepicker({
+        locale: 'ru'
+    });
+});
